@@ -1,0 +1,56 @@
+<h1>Registro Data Challenge Industrial</h1>
+<!-- Código QR -->
+<div>
+  <div>
+    <img src="assets/img/QR Lania.png" >
+  </div>
+  <div>
+    <div>Escanea un código QR</div>
+    <div>
+      <p>Utiliza este dispositivo para escanear la información.<br>
+      Haz clic en el código para hacer uso de esta función.
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Formulario -->
+<!-- <form [ngFormOptions]="{updateOn: 'blur'}">
+    <input name="one" ngModel>  this ngModel will update on blur
+ </form> -->
+
+<form>
+  <input name="id" type="hidden" />
+
+  <label>Nombre completo</label>
+  <input name="nombre" placeholder="Nombre completo">
+
+  <label>Institución de origen</label>
+  <input name="institucionDeOrigen" placeholder="Institución de origen">
+
+  <label>Facebook</label>
+  <input name="facebook" placeholder="Facebook">
+
+  <label>Nombre de equipo</label>
+  <input name="equipo" placeholder="Nombre de equipo">
+
+  <label>Color de equipo de Cómputo</label>
+  <input name="color" placeholder="Color de equipo de Cómputo">
+
+  <label>Modelo de equipo de cómputo</label>
+  <input name="modelo" placeholder="Modelo de equipo de cómputo">
+
+  <label>Correo</label>
+  <input name="correo" type="email" placeholder="Correo">
+
+  <div>
+    <input type="checkbox" name="terminos" > <span>Aceptación de <a href="#">términos de servicio</a></span>
+  </div>
+
+  <div>
+    <ul>
+      <li><button>Limpiar</button></li>
+      <li><button>Guardar</button></li>
+    </ul>
+  </div>
+</form>
